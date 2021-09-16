@@ -1,0 +1,54 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Marvel Heros Home Page";
+}
+
+@{
+    var quote = "The future depends on what you do today. - Mahatma Gandhi";
+    <div>@quote</div>
+}
+@{
+    quote = "Hate cannot drive out hate, only love can do that. - Martin Luther King, Jr.";
+}
+<div>@quote</div>
+
+
+@{
+    var pokemonCards = new [] {
+        new {
+            name = "pikachu",
+            type = "electric",
+            level = 5
+        },
+        new {
+            name = "eevee",
+            type = "normal",
+            level = 7
+        }, 
+        new {
+            name = "charmander",
+            type = "fire",
+            level = 3
+        }
+    };
+}
+
+@for (var i = 0; i < pokemonCards.Length; i++)
+{
+    var pokemon = pokemonCards[i];
+    <text>Pokemon name: @pokemon.name <br></text>
+}
+
+
+<div class="text-center">
+    <h4>Hello World!</h4>
+    <p>The current time on the server is @Model.todaysDate</p>
+    <p>@@Username</p>
+    <p>email me at amillerman01@@stclaircollege.ca</p>
+    &nbsp;
+    &lt;
+    <p>@DateTime.IsLeapYear(2017)</p>
+    <p>Last week this time: @(DateTime.Now - TimeSpan.FromDays(7))</p>
+    @("<span>Hello span</span>")
+</div>
