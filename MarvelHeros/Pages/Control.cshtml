@@ -1,0 +1,58 @@
+@page
+@model ControlModel
+@{
+    ViewData["Title"] = "Week 3 page";
+}
+
+<p>Control page content goes here</p>
+
+@{
+    var value = 10001;
+}
+@if (value % 2 == 0) // 7 / 2 = 3, 7 % 2 = 1, 13 / 7 = 1, 13 % 7 = 6, 6 % 2 = 0
+{
+    <p>the value variable is even</p>
+}
+else if (value >= 9000)
+{
+    <p>the value variable is OVER 9000!</p>
+}
+else
+{
+    <p>The value variable is neither even nor over 9000 :(</p>
+}
+@switch (value)
+{
+    case 1:
+        <p>The value is number one!</p>
+        break;
+    case 9001:
+        <p>it's BARELY over 9000!</p>
+        break;
+    default:
+        <p>the number wasn't fun</p>
+        break;
+}
+
+@try
+{
+    throw new InvalidOperationException ("You did an invalid operation");
+}
+catch (Exception ex)
+{
+    <p>the exception message: @ex.Message</p>
+}
+finally
+{
+    <p>This happens after the try catch finishes</p>
+}
+
+
+
+@using(Html.BeginForm())
+{
+    <div>
+        Email: <input type="email" id="Email" value="">
+        <button>Register</button>
+    </div>
+}

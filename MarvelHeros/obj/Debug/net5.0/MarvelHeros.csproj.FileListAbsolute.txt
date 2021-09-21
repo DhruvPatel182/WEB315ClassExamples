@@ -38,3 +38,4 @@ D:\Teaching\WEB 315\Class Example\WEB315ClassExamples\MarvelHeros\obj\Debug\net5
 D:\Teaching\WEB 315\Class Example\WEB315ClassExamples\MarvelHeros\obj\Debug\net5.0\MarvelHeros.pdb
 D:\Teaching\WEB 315\Class Example\WEB315ClassExamples\MarvelHeros\obj\Debug\net5.0\MarvelHeros.genruntimeconfig.cache
 D:\Teaching\WEB 315\Class Example\WEB315ClassExamples\MarvelHeros\obj\Debug\net5.0\MarvelHeros.csproj.CopyComplete
+D:\Teaching\WEB 315\Class Example\WEB315ClassExamples\MarvelHeros\obj\Debug\net5.0\Razor\Pages\Control.cshtml.g.cs
