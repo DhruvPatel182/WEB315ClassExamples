@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Teaching\\WEB 315\\Class Example\\WEB315ClassExamples\\MarvelHeros\\MarvelHeros.csproj": {}
+    "D:\\Teaching LOCAL\\WEB 315\\Class Example\\WEB315ClassExamples\\MarvelHeros\\MarvelHeros.csproj": {}
   },
   "projects": {
-    "D:\\Teaching\\WEB 315\\Class Example\\WEB315ClassExamples\\MarvelHeros\\MarvelHeros.csproj": {
+    "D:\\Teaching LOCAL\\WEB 315\\Class Example\\WEB315ClassExamples\\MarvelHeros\\MarvelHeros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Teaching\\WEB 315\\Class Example\\WEB315ClassExamples\\MarvelHeros\\MarvelHeros.csproj",
+        "projectUniqueName": "D:\\Teaching LOCAL\\WEB 315\\Class Example\\WEB315ClassExamples\\MarvelHeros\\MarvelHeros.csproj",
         "projectName": "MarvelHeros",
-        "projectPath": "D:\\Teaching\\WEB 315\\Class Example\\WEB315ClassExamples\\MarvelHeros\\MarvelHeros.csproj",
+        "projectPath": "D:\\Teaching LOCAL\\WEB 315\\Class Example\\WEB315ClassExamples\\MarvelHeros\\MarvelHeros.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\Teaching\\WEB 315\\Class Example\\WEB315ClassExamples\\MarvelHeros\\obj\\",
+        "outputPath": "D:\\Teaching LOCAL\\WEB 315\\Class Example\\WEB315ClassExamples\\MarvelHeros\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",

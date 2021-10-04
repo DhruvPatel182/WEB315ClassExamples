@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P86r3r+zc5nhpmvdtR76mW6cyQ/m2yFlIXJdb5Lzp5AS9S/zbidE5/8UZSrcF5bol1MrXtV90p5832gw+hoo8Q==",
+  "dgSpecHash": "kkFDDYXFP0WL+tmJ15NRk9qR15NLhf+tca4b8b2Oc94Lq7Zko/7rtjV+NpsUph4abfyZT3AIkJQAeo9rzYdjbg==",
   "success": true,
-  "projectFilePath": "D:\\Teaching\\WEB 315\\Class Example\\WEB315ClassExamples\\MarvelHeros\\MarvelHeros.csproj",
+  "projectFilePath": "D:\\Teaching LOCAL\\WEB 315\\Class Example\\WEB315ClassExamples\\MarvelHeros\\MarvelHeros.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
