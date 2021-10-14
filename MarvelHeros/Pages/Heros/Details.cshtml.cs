@@ -24,7 +24,7 @@ namespace MarvelHeros.Pages_Heros
         {
             if (id == null)
             {
-                return NotFound();
+                return RedirectToPage("./Index");
             }
 
             Hero = await _context.Hero.FirstOrDefaultAsync(m => m.ID == id);

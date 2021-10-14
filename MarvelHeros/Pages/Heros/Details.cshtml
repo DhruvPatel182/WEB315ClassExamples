@@ -1,4 +1,4 @@
-@page
+@page "{id:int?}"
 @model MarvelHeros.Pages_Heros.DetailsModel
 
 @{
@@ -34,6 +34,12 @@
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Hero.Age)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Hero.CountryOfOrigin)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Hero.CountryOfOrigin)
         </dd>
     </dl>
 </div>

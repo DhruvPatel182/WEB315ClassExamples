@@ -1,4 +1,4 @@
-@page
+@page "{searchString?}"
 @model MarvelHeros.Pages_Heros.IndexModel
 
 @{
@@ -10,6 +10,16 @@
 <p>
     <a asp-page="Create">Create New</a>
 </p>
+
+<form>
+    <p>
+        <select asp-for="HeroCountryOfOrigin" asp-items="Model.CountriesOfOrigin">
+            <option value="">All</option>
+        </select>
+        Name: <input type="text" asp-for="SearchString" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
 <table class="table">
     <thead>
         <tr>
@@ -24,6 +34,9 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Hero[0].Age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hero[0].CountryOfOrigin)
             </th>
             <th></th>
         </tr>
@@ -42,6 +55,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CountryOfOrigin)
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
