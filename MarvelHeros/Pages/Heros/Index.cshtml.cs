@@ -10,6 +10,7 @@ using MarvelHeros.Models;
 
 namespace MarvelHeros.Pages_Heros
 {
+
     public class IndexModel : PageModel
     {
         private readonly MarvelHerosHeroContext _context;
@@ -17,6 +18,7 @@ namespace MarvelHeros.Pages_Heros
         public IndexModel(MarvelHerosHeroContext context)
         {
             _context = context;
+            //_context
         }
 
         public IList<Hero> Hero { get;set; }
