@@ -2,14 +2,16 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace MarvelHeros.Migrations
 {
     [DbContext(typeof(MarvelHerosHeroContext))]
-    partial class MarvelHerosHeroContextModelSnapshot : ModelSnapshot
+    [Migration("20211019121548_new_data_annotations")]
+    partial class new_data_annotations
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

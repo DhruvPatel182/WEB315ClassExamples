@@ -14,6 +14,7 @@ namespace MarvelHeros.Models
 
         [Display(Name = "Date got their powers")]
         [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime PowerAcquisitionDate { get; set; }
 
         [Display(Name = "Secret Identity")]
