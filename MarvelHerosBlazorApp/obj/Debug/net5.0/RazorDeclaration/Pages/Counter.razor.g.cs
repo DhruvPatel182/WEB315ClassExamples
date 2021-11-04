@@ -91,15 +91,40 @@ using MarvelHerosBlazorApp.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 9 "D:\Teaching LOCAL\WEB 315\Class Example\WEB315ClassExamples\MarvelHerosBlazorApp\Pages\Counter.razor"
+#line 23 "D:\Teaching LOCAL\WEB 315\Class Example\WEB315ClassExamples\MarvelHerosBlazorApp\Pages\Counter.razor"
        
     private int currentCount = 0;
+    private int maxCount = 0;
     [Parameter]
     public int IncrementAmount { get; set; } = 1;
+    [Parameter]
+    public string Name { get; set; }
 
     private void IncrementCount()
     {
         currentCount += IncrementAmount;
+        if (currentCount > maxCount)
+        {
+            maxCount = currentCount;
+        }
+    }
+    private void ResetCount()
+    {
+        currentCount = 0;
+    }
+    private void IncreaseIncrementAmount()
+    {
+        if (IncrementAmount < 20)
+        {
+            IncrementAmount++;
+        }
+    }
+    private void DecreaseIncrementAmount()
+    {
+        if (IncrementAmount > 1)
+        {
+            IncrementAmount--;
+        }
     }
 
 #line default
