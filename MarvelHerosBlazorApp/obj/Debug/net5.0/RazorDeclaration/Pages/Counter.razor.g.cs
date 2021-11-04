@@ -99,6 +99,14 @@ using MarvelHerosBlazorApp.Shared;
 
     private void IncrementCount()
     {
+        
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 23 "D:\Teaching LOCAL\WEB 315\Class Example\WEB315ClassExamples\MarvelHerosBlazorApp\Pages\Counter.razor"
+            
         currentCount += IncrementAmount;
     }
 

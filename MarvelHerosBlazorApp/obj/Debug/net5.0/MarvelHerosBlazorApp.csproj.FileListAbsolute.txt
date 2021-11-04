@@ -56,3 +56,5 @@ D:\Teaching LOCAL\WEB 315\Class Example\WEB315ClassExamples\MarvelHerosBlazorApp
 D:\Teaching LOCAL\WEB 315\Class Example\WEB315ClassExamples\MarvelHerosBlazorApp\obj\Debug\net5.0\MarvelHerosBlazorApp.pdb
 D:\Teaching LOCAL\WEB 315\Class Example\WEB315ClassExamples\MarvelHerosBlazorApp\obj\Debug\net5.0\MarvelHerosBlazorApp.genruntimeconfig.cache
 D:\Teaching LOCAL\WEB 315\Class Example\WEB315ClassExamples\MarvelHerosBlazorApp\obj\Debug\net5.0\MarvelHerosBlazorApp.csproj.CopyComplete
+D:\Teaching LOCAL\WEB 315\Class Example\WEB315ClassExamples\MarvelHerosBlazorApp\obj\Debug\net5.0\RazorDeclaration\Pages\Todo.razor.g.cs
+D:\Teaching LOCAL\WEB 315\Class Example\WEB315ClassExamples\MarvelHerosBlazorApp\obj\Debug\net5.0\Razor\Pages\Todo.razor.g.cs

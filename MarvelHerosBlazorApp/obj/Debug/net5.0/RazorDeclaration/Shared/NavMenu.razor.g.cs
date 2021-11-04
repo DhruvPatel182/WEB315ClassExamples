@@ -90,7 +90,7 @@ using MarvelHerosBlazorApp.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "D:\Teaching LOCAL\WEB 315\Class Example\WEB315ClassExamples\MarvelHerosBlazorApp\Shared\NavMenu.razor"
+#line 33 "D:\Teaching LOCAL\WEB 315\Class Example\WEB315ClassExamples\MarvelHerosBlazorApp\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 
